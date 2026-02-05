@@ -27,15 +27,16 @@ Ao executar o código Python, o programa irá:
 2. Instale as dependências necessárias:
    ```bash
    pip install pandas openpyxl
-- Execute o script principal:
+3. Execute o script principal:
 python main.py
 
-- Uma janela será aberta (via tkinter) para que você selecione o arquivo Report.xlsx.
-- 
-- O programa irá processar os dados e salvar automaticamente uma nova planilha chamada planilha_nova.xlsx no mesmo diretório.
-- 
-Estrutura esperada- Entrada: Report.xlsx (arquivo exportado da plataforma de e-commerce).
+4. Uma janela será aberta (via tkinter) para que você selecione o arquivo Report.xlsx.
 
+5. O programa irá processar os dados e salvar automaticamente uma nova planilha chamada planilha_nova.xlsx no mesmo diretório.
+
+Estrutura esperada
+
+- Entrada: Report.xlsx (arquivo exportado da plataforma de e-commerce).
 - Saída: planilha_nova.xlsx (arquivo tratado e pronto para uso).
 
 Exemplo de uso- Arquivo original: contém colunas como Client Name, Payment System Name, SKU Name, Total Value, Status.
